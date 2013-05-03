@@ -1,0 +1,29 @@
+{
+    "name": "xi/transliterator",
+    "type": "library",
+    "description": "A transliteration abstraction library",
+    "keywords": ["Transliterate", "Transliterator"],
+    "homepage": "http://github.com/xi-project/xi-transliterator",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Mikko Forsström",
+            "email": "pekkisx@gmail.com",
+            "homepage": "http://diktaattoriporssi.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.4"
+    },
+    "require-dev": {
+        "ext-intl": "*",
+        "ext-translit": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xi\\Transliterator": "library/"
+        }
+    },
+    "minimum-stability": "stable"
+}
